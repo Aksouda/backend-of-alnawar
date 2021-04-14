@@ -91,5 +91,6 @@ $route['View_Product/(:num)']='Product/View_Product/$i';
 
 /* front end routes*/
 $route['blog']='index.php/front_end/Blog';
+// $route['product']['GET']='Front/index';
 
 

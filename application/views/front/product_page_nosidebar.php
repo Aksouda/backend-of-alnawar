@@ -2389,6 +2389,10 @@
             document.getElementById("search-overlay").style.display = "none";
         }
     </script>
+    <script>
+    get_single_product();
+    
+    </script>
 </body>
 
 </html>
