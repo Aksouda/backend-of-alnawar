@@ -29,9 +29,36 @@ class Front extends CI_Controller
         } 
 
 
-$id = $this->db->insert_id();
 
-    public function Product_single($id)
+/* 
+        public function Show ($id= NULL)
+    {
+        
+        $data['product'] = $this->Product->get_vehicle_by_id($id);
+        $this->load->view('front/single_product', $data);
+    } */
+
+   /*  public function Show($id = NULL)
+{
+  if (! $id) {
+      show_error('You did not pass an id to retrieve car details!');
+  }
+  else {
+   
+    // get the details for the car with id = $id from your database, pass the data to another view to display them.
+  
+    $data['product'] = $this->Product->get_single_product($id);
+        $this->load->view('front/single_product', $data);
+
+
+        }
+
+
+}  */
+
+    
+
+   /*  public function Product_single($id)
         {
         $single = $this->Product->get_single_product();
         $content['single'] = $single
@@ -51,7 +78,7 @@ $id = $this->db->insert_id();
         
         
         $this->load->view('product_page_nosidebar',array( 'single'=>$single,'rows_cat'=>$rows_cat,'tags'=>$tags,'up_data'=>$data,'img'=>$img,'cat'=>$cat,'colors'=>$colors,'attr'=>$attr));
-        }
+        } */
         
         
         

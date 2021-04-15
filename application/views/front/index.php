@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="multikart">
-    <meta name="keywords" content="multikart">
-    <meta name="author" content="multikart">
-    <link rel="icon" href="../assets/front/images/favicon/1.png" type="image/x-icon">
-    <link rel="shortcut icon" href="../assets/front/images/favicon/1.png" type="image/x-icon">
-    <title>Multikart - Multi-purpopse E-commerce Html Template</title>
 
    <?php $this->load->view('front/header');?>
     <!-- header end -->
@@ -138,11 +126,11 @@
                         <div class="product-box">
                             <div class="img-wrapper">
                                 <div class="front">
-                                    <a onclick="make_storage('<?php echo $item[''] ;?>')" href="product-page(no-sidebar).html"><img src="<?php echo base_url('uploads/product/'.$item['image'])?>"
+                                    <a  href="product).html"><img src="<?php echo base_url('uploads/product/'.$item['image']);?>"
                                             class="img-fluid blur-up lazyload bg-img" alt=""></a>
                                 </div>
                                 <div class="back">
-                                    <a href="product-page(no-sidebar).html"><img src="<?php echo base_url('uploads/product/'.$item['image'])  ;?>"
+                                    <a href="<?php echo base_url('front_end/Single_product/index/'.$item['id']);?>"><img src="<?php echo base_url('uploads/product/'.$item['image'])  ;?>"
                                             class="img-fluid blur-up lazyload bg-img" alt=""></a>
                                 </div>
                                 <div class="cart-info cart-wrap">
